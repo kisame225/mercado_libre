@@ -1,0 +1,157 @@
+
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+     list-style: none;
+}
+
+
+body { 
+    font-family: 'Roboto', sans-serif;
+}
+
+ img { 
+    max-width:100%;
+}
+
+.contenido { 
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.header { 
+    display: flex;
+    align-items: center;
+    background-color: rgb(240, 243, 245);
+    background-color: #FFE600;
+    justify-content:space-around
+}
+
+
+.logo { 
+    width: 400px; /* Ajustar el tamaño del logo */
+    margin-right: 20px
+   }
+
+
+
+.menu .navbar ul li   { 
+    position: relative;
+    float: left; 
+}
+
+.menu .navbar ul li a { 
+   font-size: 18px;
+   padding: 20px;
+   color: black;
+   display: block;
+ } 
+
+ .menu .navbar ul li a:hover { 
+   color: rgb(7, 158, 218);
+  }
+ 
+.banner {  flex-basis: 50%;
+    height: 200px;
+    background-color: lightblue;
+}
+
+
+ 
+ 
+
+/*estilos de mis productos*/
+
+/*mi main*/
+.contenido-ofertas {
+    background-color: floralwhite;
+    text-align: center;
+    padding: 20px;
+    margin-top: 130px;
+}
+/*cierre de mi main*/
+h2{ font-size: 40px;
+    background-color:#E0E0E0 ;
+
+}
+.producto {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 5px 10 px rgba(0, 18, 94, 0.966);
+    box-decoration-break: slice;
+    
+}
+
+.caja-ofertas-productos {
+    margin-top: 55px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 20px;
+    padding-left: 50px;
+}
+
+
+
+
+.caja-contenido-productos {
+    margin-top: 55px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 20px;
+   padding-left: 50px;
+}
+
+
+
+.productos-mas-vistos {
+    background-color: #E0E0E0;
+    text-align: center;
+    padding: 10px;
+}
+
+.producto img {
+    max-width: 100%; /* Limitar el ancho máximo de la imagen */
+    height: 200px; /* Permitir que la altura se ajuste automáticamente para mantener la relación de aspecto */
+    z-index: 0; /* Colocar la imagen detrás de otros elementos */
+}
+.precio{
+    font-size: 18px;
+}
+
+.precio{ margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* footer style*/
+
+footer {
+    background-color: #FFE600;
+    padding: 100px 50px;
+    margin-top: 60px;
+}
+
+.contenido-footer {  display: flex;
+                    justify-content: space-between;
+}
+
+.link h3 {  color: #ccc;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.link a {  color: rgb(243, 236, 236);
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+.link a:hover {  
+           color: aqua;
+}
